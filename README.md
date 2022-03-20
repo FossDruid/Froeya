@@ -19,5 +19,5 @@ $ . venv/bin/activate
 
 ## Install Flask and dependencies
 
-$ pip install Flask Flask-Session
+$ pip install Flask Flask-Session  
 $ flask run
