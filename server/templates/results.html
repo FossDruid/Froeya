@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/results.css') }}">
+<title>Results - Weather for {{ location }}</title>
+
+<div class="weatherInfoClass id="weatherInfoDiv">
+    <h3 class="weatherDataText">Weather in {{ location }}</h3>
+    <h2 class="weatherDataText"> {{ temp }}°C, but feels like {{ feels_like }} °C</h2>
+    <h4 class="weatherDataText"> {{ weather }}</h4>
+</div>
+{% endblock %}

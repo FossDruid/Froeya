@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--  Import of fonts and other elements  -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/base.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+    <header>
+        <div class="pageHeader">
+            <h1 class="pageHeaderElements" id="headerText">FRøya - Weather dashboard</h1>
+        </div> 
+    </header>
+
+    {% block content %}{% endblock %}
+</body>
+</html>

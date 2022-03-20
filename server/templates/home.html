@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+
+<title>Weather Dashboard</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/home.css') }}">
+
+<h2>Enter wanted location and zip code</h2>
+<form class="weatherText" id="weatherForm" action="{{ url_for('render_results' )}}" method="post">
+    Location Zip code: <input class="weatherText" id="weatherInput" type="text" name="zipCode"><br>
+    Country Code: <input class=""weatherText id="countryCode" type="text" name="countryCode"><br>
+    <input class="weatherText" id="weatherSubmit" type="submit" value="Submit">
+</form>
+
+{% endblock %}

@@ -1,0 +1,5 @@
+/src/config.ini
+venv/
+.env
+.flaskenv
+__pycache__/

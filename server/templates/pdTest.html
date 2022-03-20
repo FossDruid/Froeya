@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<h4>python pandas test</h4>
+
+{% for table in tables %}
+     {{titles[loop.index]}}
+     {{ table|safe}}
+
+{% endfor %}
+
+{% endblock %}
