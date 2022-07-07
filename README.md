@@ -11,7 +11,7 @@ You will need Python3, pip and python pandas for this project.
 Refer to the proper documentation if need: https://flask.palletsprojects.com/en/2.0.x/  
 Pythonpandas functionality is currently WIP.  
 
-##Create and activate an enviorment
+## Create and activate an enviorment
 
 $ cd server/  
 $ python3 -m venv venv  
